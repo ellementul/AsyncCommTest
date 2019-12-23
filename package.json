@@ -1,0 +1,31 @@
+{
+  "name": "asynccommtest",
+  "version": "0.0.1",
+  "description": "Inspective module for AsyncComm",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ellementul/AsyncCommTest.git"
+  },
+  "keywords": [
+    "async",
+    "communicator",
+    "module",
+    "testing"
+  ],
+  "author": "ellementul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ellementul/AsyncCommTest/issues"
+  },
+  "homepage": "https://github.com/ellementul/AsyncCommTest#readme",
+  "dependencies": {
+    "asyncommun": "git+https://github.com/ellementul/AsyncCommun.git"
+  },
+  "devDependencies": {
+    "typesjs": "git+https://github.com/ellementul/typesjs.git"
+  }
+}
