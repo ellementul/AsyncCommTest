@@ -1,6 +1,6 @@
 {
   "name": "asynccommtest",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Inspective module for AsyncComm",
   "main": "index.js",
   "scripts": {

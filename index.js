@@ -23,6 +23,8 @@ function randTest(gen, valid, repeat){
 
 		while(numberMsg--)
 			outFunc(gen());
+
+		setTimeout(checkRes, repeat);
 	}
 
 	function inputTest(mess){
@@ -35,6 +37,12 @@ function randTest(gen, valid, repeat){
 
 		if(repeat === 0)
 			console.log('Success!');
+	}
+
+	function checkRes(){
+
+		if(repeat !== 0)
+			console.log('Error!');
 	}
 
 	return {
