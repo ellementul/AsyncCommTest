@@ -6,7 +6,7 @@ function randTest(gen, valid, repeat){
 		throw new TypeError("The validator isn't function!");
 
 	repeat = parseInt(repeat);
-	if(repeat < 1)
+	if(repeat < 1 || repeat >= Infinity || isNaN(repeat))
 		repeat = 1;
 
 
